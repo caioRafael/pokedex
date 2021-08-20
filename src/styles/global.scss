@@ -1,0 +1,40 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --background: #ef3e38;
+  --secundary-background: #fbfdff;
+  --text: #29292e;
+  --border-color-types: #f8f8f8;
+  --border-color: #484848;
+  --neutral-blue: #41a6f5;
+  --background-blue: #e0feff;
+  --green-button: #2eb497;
+  --black-green-button: #27917a;
+  --white: #ffffff
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+body, input, button, textarea {
+  font: 300 16px 'Roboto', sans-serif;
+}
